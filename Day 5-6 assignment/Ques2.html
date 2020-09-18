@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Detail Application</title>
+    <link rel="stylesheet" href="Ques2.css">
+</head>
+<body>
+    <div class="data">
+        <h1>Bus Details</h1>
+  
+        <div class="form">
+            <h2>Add new bus</h2>
+          <form onsubmit="addBus(event)">
+            <input type="text" required placeholder="Name" id="name" />
+            <input type="text" required placeholder="Source" id="source" />
+            <input type="text" required placeholder="Destination" id="destination" />
+            <input type="text" required placeholder="Bus Number" id="busno" />
+            <input type="text" required placeholder="Passenger capacity" id="pass" />
+            <button type="submit">Add New Bus</button>
+          </form>
+        </div>
+        
+        <span class="form">
+            <h3>Enter Source</h3>
+          <input
+            type="text"
+            placeholder="Search the source place"
+            id="source1"
+            onkeyup="searchBySource()"
+          />
+        </span>
+        
+        
+        <span class="form1">
+            <h3>Search for destination</h3>
+          <input
+            type="text"
+            placeholder="Search the Deatination place"
+            id="source2"
+            onkeyup="searchByDestination()"
+          />
+        </span>
+    
+  
+  
+        <table border="1" class="table" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Sr no</th>
+              <th>Name of Bus</th>
+              <th>Source</th>
+              <th>Destination</th>
+              <th>Bus Number</th>
+              <th>Passenger Capacity</th>
+            </tr>
+          </thead>
+          <tbody class="tdata" id="tdata"></tbody>
+        </table>
+      </div>
+    <script src="Ques2.js"></script>
+</body>
+</html>

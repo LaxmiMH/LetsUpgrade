@@ -1,0 +1,42 @@
+/* table{
+    bo
+
+} */
+h2{
+    text-align-last: center;
+    text-decoration-line: underline;
+}
+.data{
+  
+    height: 500px;
+    width:80%;
+    background-color: rgb(145, 174, 190);
+    margin-left: 10%;
+    margin-top: 70px;
+    padding: 5px;
+    display: inline-block
+}
+.table{
+    width:100%;
+    margin-top: 40px
+}
+    th,td {
+      height: 40px;
+      text-align: center;
+      padding: 5px;
+    };
+   
+      .form {
+        margin-top: 40px;
+        /* display: inline-block */
+        text-align: center;
+        margin-left:20px
+        
+      }
+      input {
+        height: 40px;
+        text-indent: 20px;
+      /* text-align: center; */
+       
+      }
+
